@@ -117,7 +117,7 @@ namespace Knjiznica.Forms
             // 
             // VratiButton
             // 
-            this.VratiButton.Location = new System.Drawing.Point(623, 256);
+            this.VratiButton.Location = new System.Drawing.Point(623, 246);
             this.VratiButton.Name = "VratiButton";
             this.VratiButton.Size = new System.Drawing.Size(120, 40);
             this.VratiButton.TabIndex = 8;
