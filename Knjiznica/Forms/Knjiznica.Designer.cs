@@ -29,7 +29,7 @@ namespace Knjiznica.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TextBox = new System.Windows.Forms.TextBox();
             this.UčeniciLabel = new System.Windows.Forms.Label();
             this.KnjigeLabel = new System.Windows.Forms.Label();
             this.PosuđeneKnjige = new System.Windows.Forms.Label();
@@ -40,13 +40,13 @@ namespace Knjiznica.Forms
             this.VratiButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // TextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 125);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(537, 313);
-            this.textBox1.TabIndex = 0;
+            this.TextBox.Location = new System.Drawing.Point(12, 125);
+            this.TextBox.Multiline = true;
+            this.TextBox.Name = "TextBox";
+            this.TextBox.Size = new System.Drawing.Size(537, 313);
+            this.TextBox.TabIndex = 0;
             // 
             // UčeniciLabel
             // 
@@ -138,7 +138,7 @@ namespace Knjiznica.Forms
             this.Controls.Add(this.PosuđeneKnjige);
             this.Controls.Add(this.KnjigeLabel);
             this.Controls.Add(this.UčeniciLabel);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TextBox);
             this.Name = "Form1";
             this.Text = "Knjižnica";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -149,7 +149,7 @@ namespace Knjiznica.Forms
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TextBox;
         private System.Windows.Forms.Label UčeniciLabel;
         private System.Windows.Forms.Label KnjigeLabel;
         private System.Windows.Forms.Label PosuđeneKnjige;
