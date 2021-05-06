@@ -1,0 +1,15 @@
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.csprojAssemblyReference.cache
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.Forms.DetaljiPosudbe.resources
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.Forms.DetaljiUcenika.resources
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.Forms.DodajKnjige.resources
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.Forms.Knjige.resources
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.Forms.Form1.resources
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.Forms.Ucenici.resources
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.Properties.Resources.resources
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.csproj.GenerateResource.cache
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.csproj.CoreCompileInputs.cache
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\bin\Debug\Knjiznica.exe.config
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\bin\Debug\Knjiznica.exe
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\bin\Debug\Knjiznica.pdb
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.exe
+C:\Users\DIREKTOR\source\repos\Knjiznica\Knjiznica\obj\Debug\Knjiznica.pdb

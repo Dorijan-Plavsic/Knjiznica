@@ -30,10 +30,10 @@ namespace Knjiznica.Forms
         private void InitializeComponent()
         {
             this.UceniciLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.Dodaj = new System.Windows.Forms.Button();
             this.Uredi = new System.Windows.Forms.Button();
             this.Brisi = new System.Windows.Forms.Button();
+            this.lbUcenici = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // UceniciLabel
@@ -46,14 +46,6 @@ namespace Knjiznica.Forms
             this.UceniciLabel.TabIndex = 1;
             this.UceniciLabel.Text = "Učenici:";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(12, 87);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(290, 266);
-            this.textBox1.TabIndex = 2;
-            // 
             // Dodaj
             // 
             this.Dodaj.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -63,6 +55,7 @@ namespace Knjiznica.Forms
             this.Dodaj.TabIndex = 7;
             this.Dodaj.Text = "Dodaj";
             this.Dodaj.UseVisualStyleBackColor = true;
+            this.Dodaj.Click += new System.EventHandler(this.Dodaj_Click);
             // 
             // Uredi
             // 
@@ -84,15 +77,23 @@ namespace Knjiznica.Forms
             this.Brisi.Text = "Briši";
             this.Brisi.UseVisualStyleBackColor = true;
             // 
+            // lbUcenici
+            // 
+            this.lbUcenici.FormattingEnabled = true;
+            this.lbUcenici.Location = new System.Drawing.Point(16, 87);
+            this.lbUcenici.Name = "lbUcenici";
+            this.lbUcenici.Size = new System.Drawing.Size(304, 251);
+            this.lbUcenici.TabIndex = 10;
+            // 
             // Ucenici
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(590, 394);
+            this.Controls.Add(this.lbUcenici);
             this.Controls.Add(this.Brisi);
             this.Controls.Add(this.Uredi);
             this.Controls.Add(this.Dodaj);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.UceniciLabel);
             this.Name = "Ucenici";
             this.Text = "Ucenici";
@@ -105,9 +106,9 @@ namespace Knjiznica.Forms
         #endregion
 
         private System.Windows.Forms.Label UceniciLabel;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button Dodaj;
         private System.Windows.Forms.Button Uredi;
         private System.Windows.Forms.Button Brisi;
+        private System.Windows.Forms.ListBox lbUcenici;
     }
 }
